@@ -1,20 +1,21 @@
 /*
 Author  : Danu AF
 Title   : Seed XIAO nRF52840 with BTS7960 for Ronaldo Remote Control (BLE)
+GitHub  : https://github.com/danuaf/Seeed-nRF52840-BTS7960-for-Ronaldo.git
 
 Parameter for Function direction :
   direction(command, speed, turning speed) 
-    command : 1. Move Forward
-              2. Move Backward
-              3. Turn Right
-              4. Turn Left
-              5. Turn Up Right
-              6. Turn Up Left
-              7. Turn Down Right
-              8. Turn Down Left
-              null. Stop
-    speed   : PWM Value 0-255
-
+              command : 1. Move Forward
+                        2. Move Backward
+                        3. Turn Right
+                        4. Turn Left
+                        5. Turn Up Right
+                        6. Turn Up Left
+                        7. Turn Down Right
+                        8. Turn Down Left
+                        else. Stop
+    speed and         : PWM Value 0-255
+    turning speed
 */
 
 
